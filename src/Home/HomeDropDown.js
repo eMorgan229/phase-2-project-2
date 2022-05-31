@@ -1,10 +1,11 @@
 import React from 'react'
 
-function HomeDropDown() {
+function HomeDropDown({handleChange, handleChange1}) {
+
   return (
-    <div>HomeDropDown
-         <select>
-            <option selected src="https://images.metmuseum.org/CRDImages/ep/original/DP367958.jpg">Madonna and Child with the Annunciation and the Nativity </option>
+    <div>
+          <select onChange={(e) => handleChange(e)}> 
+            <option defaultValue value="https://images.metmuseum.org/CRDImages/ep/original/DP367958.jpg">Madonna and Child with the Annunciation and the Nativity </option>
             <option  value="https://images.metmuseum.org/CRDImages/dp/original/DP863220.jpg">The Death of Camilla</option>
             <option  value="https://images.metmuseum.org/CRDImages/ep/original/DT228288.jpg">Head of a Donor</option>
             <option value="https://images.metmuseum.org/CRDImages/ep/original/DT5526.jpg">Wolf and Fox Hunt</option>
@@ -15,6 +16,7 @@ function HomeDropDown() {
             <option value="https://images.metmuseum.org/CRDImages/dp/original/DP838885.jpg">George R. Jones, The New York Times, from the American Editors series (N35) for Allen and Ginter Cigarettes</option>
 
         </select>
+       
     </div>
   )
 }
