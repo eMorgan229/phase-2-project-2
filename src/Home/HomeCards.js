@@ -1,8 +1,12 @@
 import React from 'react'
 
-function HomeCards() {
+function HomeCards({photoData}) {
   return (
-    <div>HomeCards</div>
+     <div>
+    
+         <img src={photoData} alt='art'/>
+      
+    </div>
   )
 }
 
