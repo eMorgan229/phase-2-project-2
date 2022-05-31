@@ -1,9 +1,13 @@
 import React from 'react'
 import AddForm from './AddForm'
+import AddedArt from './AddedArt'
 
 function AddOwn() {
   return (
-    <div>AddOwn</div>
+    <div>
+      <AddForm/>
+      <AddedArt/>
+    </div>
   )
 }
 
