@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*copied from gregslist for the 'like-button'*/
+.emoji-button.favorite {
+  color: transparent;
+  text-shadow: 0 0 0 gray;
+}
+
+.emoji-button.favorite.active,
+.emoji-button.favorite:hover {
+  text-shadow: 0 0 0 gold;
+  cursor: pointer;
+}
+
+.emoji-button.delete:hover {
+  text-shadow: 0 0 0 firebrick;
+  cursor: pointer;
+}

@@ -1,0 +1,58 @@
+
+ { "artWork": [
+    {
+      "id": 1,
+      "title": "Madonna and Child with the Annunciation and the Nativity",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP367958.jpg",
+      "author": "Goodhart Ducciesque Master"
+    },
+    {
+      "id": 2,
+      "title": "The Death of Camilla",
+      "image": "https://images.metmuseum.org/CRDImages/dp/original/DP863220.jpg",
+      "author": "Antonio Tempesta"
+    },
+    {
+      "id": 3,
+      "title": "Head of a Donor",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DT228288.jpg",
+      "author": "Albert van Ouwater"
+    },
+    {
+      "id": 4,
+      "title": "Wolf and Fox Hunt",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DT5526.jpg",
+      "author": "Peter Paul Rubens"
+    },
+    {
+      "id": 5,
+      "title": "Domestic Scene",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DT11332.jpg",
+      "author": "German Painter"
+    },
+    {
+      "id": 6,
+      "title": "Albert (René) Grenier (1858 - 1925)",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DT2167.jpg",
+      "author": "Henri de Toulouse-Lautrec"
+    },
+    {
+      "id": 7,
+      "title": "Ariadne",
+      "image": "https://images.metmuseum.org/CRDImages/ep/original/DP169627.jpg",
+      "author": "George Frederic Watts"
+    },
+    {
+      "id": 8,
+      "title": "When the Swallows Homeward Fly, from the Jokes series (N87) for Duke brand cigarettes",
+      "image": "https://images.metmuseum.org/CRDImages/dp/original/DPB883134.jpg",
+      "author": "W. Duke, Sons & Co."
+    },
+    {
+      "id": 9,
+      "title": "George R. Jones, The New York Times, from the American Editors series (N35) for Allen & Ginter Cigarettes",
+      "image": "https://images.metmuseum.org/CRDImages/dp/original/DP838885.jpg",
+      "author": "Allen & Ginter"
+    }
+  ]
+}

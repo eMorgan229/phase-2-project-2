@@ -1,8 +1,16 @@
 import './App.css';
+import Header from './Header';
+
 
 function App() {
+
+  
   return (
-    console.log('poop')
+    <div className="app">
+        <Header/>
+        
+    </div>
+  
   );
 }
 
