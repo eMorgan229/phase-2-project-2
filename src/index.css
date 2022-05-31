@@ -28,3 +28,51 @@ code {
   text-shadow: 0 0 0 firebrick;
   cursor: pointer;
 }
+
+
+form.new-poem-form {
+  border: solid black 1px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+form.new-poem-form > input,
+form.new-poem-form > textarea {
+  font-size: 1em;
+  font-family: sans-serif;
+  margin-bottom: 0.5em;
+}
+
+input[type="submit"],
+button {
+  font-weight: bold;
+  font-size: 1em;
+  background: #da4eea;
+  border: solid black 1px;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+.card .image {
+  height: 225px;
+  position: relative;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+  max-width: 30em;
+  margin: auto;
+}
+
+.form-container > div {
+  border-bottom: solid 1px grey;
+  padding-bottom: 1em;
+  min-width: 20em;
+}
+
+.form-container > div > button {
+  min-width: 4em;
+}
