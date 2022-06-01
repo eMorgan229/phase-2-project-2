@@ -55,12 +55,5 @@
       "author": "Allen & Ginter"
     }
   ],
-  "userWork": [
-    {
-      "title": "ahah",
-      "image": "https://images.metmuseum.org/CRDImages/ep/original/DT1567.jpg",
-      "author": "ARE",
-      "id": 1
-    }
-  ]
+  "userWork": []
 }

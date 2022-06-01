@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
-function AddForm() {
+
+function AddForm({posted, isPosted}) {
+  
   const [title, setTitle] = useState('')
   const [image, setImage] = useState('')
   const [author, setAuthor] = useState('')
@@ -10,10 +12,13 @@ function AddForm() {
       method: 'POST',
       headers: {"Content-Type": "application/json"},
       body: JSON.stringify(userWork)
+      
     })
+    .then(posted(!isPosted))
    console.log(userWork)
   }
   return (
+ 
     <div className="form-container">
     <form className="new-poem-form"  onSubmit ={addedWork}>
             <input placeholder="Title" type="text" id="title" value={title} onChange= {(e)=> setTitle(e.target.value) } />
@@ -22,6 +27,9 @@ function AddForm() {
             <input type="submit" value="Share your masterpiece" />
     </form>
     </div>
+
+ 
+  
   )
 }
 export default AddForm
