@@ -1,10 +1,10 @@
 import React from 'react'
 
-function HomeDropDown({handleChange, handleChange1}) {
+function HomeDropDown({handleChange}) {
 
   return (
     <div>
-          <select onChange={(e) => handleChange(e)}> 
+          <select onChange={(e) => handleChange(e)} className='home-dropdown'> 
             <option defaultValue value="https://images.metmuseum.org/CRDImages/ep/original/DP367958.jpg">Madonna and Child with the Annunciation and the Nativity </option>
             <option  value="https://images.metmuseum.org/CRDImages/dp/original/DP863220.jpg">The Death of Camilla</option>
             <option  value="https://images.metmuseum.org/CRDImages/ep/original/DT228288.jpg">Head of a Donor</option>

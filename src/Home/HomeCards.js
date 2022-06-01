@@ -1,11 +1,13 @@
 import React from 'react'
+import HomeDropDown from './HomeDropDown'
 
-function HomeCards({photoData}) {
+
+function HomeCards({photoData, handleChange}) {
   return (
      <div>
-    
-         <img src={photoData} alt='art'/>
-      
+          <HomeDropDown className='home-dropdown' handleChange={handleChange}/>
+         <img className='home-cards'src={photoData} alt='art'/>
+
     </div>
   )
 }

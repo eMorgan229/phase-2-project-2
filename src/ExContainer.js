@@ -2,7 +2,6 @@ import React from 'react'
 import ExCards from './ExCards.js'
 
 function ExContainer({exCards}) {
-    console.log(exCards)
 
    const mapExCards = exCards.map((cardsObj) => {
        return <ExCards 

@@ -13,3 +13,11 @@
   color: black;
 }
 
+.home-cards {
+  max-width: 20%;
+  height: auto;
+  float: left;
+}
+.home-dropdown {
+  width: 20%;
+}
