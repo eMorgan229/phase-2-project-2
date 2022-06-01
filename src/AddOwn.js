@@ -1,12 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import AddForm from './AddForm'
 import AddedArt from './AddedArt'
 
 function AddOwn() {
+  const [isPosted, setIsPosted] = useState(false) 
   return (
     <div>
-      <AddForm/>
-      <AddedArt/>
+      <AddForm posted={setIsPosted} isPosted={isPosted}/>
+      <AddedArt isPosted={isPosted}/>
     </div>
   )
 }
