@@ -5,11 +5,9 @@ function AddForm({posted, isPosted}) {
   const [title, setTitle] = useState('')
   const [image, setImage] = useState('')
   const [author, setAuthor] = useState('')
-
   function addedWork(e){
     e.preventDefault()
    const userWork = { title, image, author}
-
     fetch('http://localhost:3000/userWork', {
       method: 'POST',
       headers: {"Content-Type": "application/json"},
@@ -18,9 +16,7 @@ function AddForm({posted, isPosted}) {
     })
     .then(posted(!isPosted))
    console.log(userWork)
-
   }
-
   return (
  
     <div className="form-container">
@@ -29,14 +25,11 @@ function AddForm({posted, isPosted}) {
             <input placeholder="Artist" type="text" value={author} onChange= {(e)=> setAuthor(e.target.value) } />
             <textarea placeholder="Add your masterpiece here..." type="img" value={image} onChange= {(e)=> setImage(e.target.value)} />
             <input type="submit" value="Share your masterpiece" />
- 
     </form>
     </div>
 
  
   
   )
- 
 }
-
 export default AddForm

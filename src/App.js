@@ -2,7 +2,7 @@ import './App.css';
 import Header from './Header';
 import {BrowserRouter as Router, Route,Switch} from 'react-router-dom';
 import Exhibitions from './Exhibitions';
-import Home from './Home';
+import Home from './Home/Home';
 import AddOwn from './AddOwn';
 
 
@@ -18,6 +18,7 @@ function App() {
 
           <Route exact path='/'>
             <Home />
+            
             </Route>
 
           <Route exact path='/addown'>

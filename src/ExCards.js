@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 
 
 function ExCards({exCards}) {
-  console.log(`hello ${exCards} `)
     const {image, author, title} = exCards
     const [isFavorited, setIsFavorited] = useState(false);
 
