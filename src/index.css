@@ -6,16 +6,54 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/*copied to try and add transitions */
+
+
+  
+/* END transitioin css*/
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
+nav {
+  border-bottom: 1px #ccc solid;
+  background: #eee;
+   padding: 3rem;
+  display: flex;
+   align-items: center; 
+   justify-content: space-evenly; 
+
+}
+
+.home-button {
+ height: 100px;
+ width: 300px;
+ border-radius: 10%;
+ background: navy;
+ color: white;
+ font-weight: bold;
+  font-size: 2rem;
+  cursor: pointer;
+ 
+}
+
+header {
+  line-height: 1;
+  font-family: serif;
+  font-size: 100px;
+
+
+}
+
+
+
 /*copied from gregslist for the 'like-button'*/
 .emoji-button.favorite {
   color: transparent;
   text-shadow: 0 0 0 gray;
+  border: none;
 }
 
 .emoji-button.favorite.active,
@@ -28,7 +66,9 @@ code {
   text-shadow: 0 0 0 firebrick;
   cursor: pointer;
 }
-
+.emoji-button.delete{
+  border: none;
+}
 
 form.new-poem-form {
   border: solid black 1px;
@@ -48,31 +88,62 @@ input[type="submit"],
 button {
   font-weight: bold;
   font-size: 1em;
-  background: #da4eea;
+  background: #e6e7f9;
   border: solid black 1px;
   padding: 0.5em;
   cursor: pointer;
 }
 
-.card .image {
-  height: 225px;
-  position: relative;
-  width: 300px;
+.card {
+  position: center;
+  /* padding-left: 70px; */
+  display: inline-block;
+  padding-bottom: 50px;
+}
+
+.image {
+   height: 450px;
+  position: right;
+  width: 600px;
   display: flex;
-  justify-content: center;
+  justify-content: center; 
 }
 
 .form-container {
-  max-width: 30em;
-  margin: auto;
+  max-width: 60em;
+  margin: left;
 }
 
 .form-container > div {
   border-bottom: solid 1px grey;
   padding-bottom: 1em;
   min-width: 20em;
+  display: block;
+  width: 100%;
 }
 
 .form-container > div > button {
   min-width: 4em;
 }
+
+/* center home cards*/
+/* .card {
+  text-align: center
+} */
+
+/* edit home title */
+.home-title {
+  line-height: 1;
+  font-family: serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.home-cards-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+/* call flex-direct*/

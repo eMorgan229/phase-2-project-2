@@ -4,11 +4,20 @@ import {Link} from 'react-router-dom';
 function Header() {
     
   return (
-      <nav>
-        <header className='header'>Tiny Museum</header>
-        <Link to ="/">Home</Link>
-        <Link to='/exhibitions'>Exhibitions</Link>
-        <Link to = "/addown">Add Your Own Exhibit</Link>
+    <nav>
+        <header>Tiny Museum</header>
+      
+        <Link to ="/" >
+          <button className='home-button'>Home</button>
+          </Link>
+
+        <Link to='/exhibitions' >
+          <button className='home-button'>Exhibitions</button>
+          </Link>
+
+        <Link to = "/addown" >
+          <button className="home-button">Add Your Own Exhibit</button>
+          </Link>
     </nav>
   )
 }

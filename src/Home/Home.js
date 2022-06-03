@@ -16,10 +16,11 @@ function Home() {
 
 
   return ( 
-     <div>Home
-        <h2>Please Select 2 exhibitions to enjoy! </h2>
-         <HomeCards photoData={photoData1} handleChange={handleChange1}/> 
-       <HomeCards photoData={photoData} handleChange={handleChange}/> 
+     <div className='page'>
+        <h2 className='home-title'>Please Select 2 exhibitions to enjoy! </h2>
+        <div className='home-cards'><HomeCards photoData={photoData1} handleChange={handleChange1}/> 
+       <HomeCards photoData={photoData} handleChange={handleChange}/> </div>
+         
 
 
 
