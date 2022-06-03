@@ -5,11 +5,12 @@ import Exhibitions from './Exhibitions';
 import Home from './Home/Home';
 import AddOwn from './AddOwn';
 
-
 function App() {
   return (
+
     <Router>
     <div className="app">
+      
         <Header/>
         <Switch>
            <Route exact path='/exhibitions'>
@@ -25,8 +26,11 @@ function App() {
             <AddOwn />
           </Route>
         </Switch>
-    </div>
-    </Router>
+        
+        </div>
+        </Router>
+  
+  
   );
 }
 

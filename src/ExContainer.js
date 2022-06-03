@@ -10,7 +10,7 @@ function ExContainer({exCards}) {
    })
 
   return (
-    <div>
+    <div className='home-card-div'>
         <ul className='cards'>{mapExCards}</ul>
     </div>
   )

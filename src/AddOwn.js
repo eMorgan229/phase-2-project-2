@@ -5,7 +5,7 @@ import AddedArt from './AddedArt'
 function AddOwn() {
   const [isPosted, setIsPosted] = useState(false) 
   return (
-    <div>
+    <div className='page'>
       <AddForm posted={setIsPosted} isPosted={isPosted}/>
       <AddedArt isPosted={isPosted}/>
     </div>

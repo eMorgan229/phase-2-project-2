@@ -20,7 +20,7 @@ function AddFormCard({exCards, onDeleteArt, id}) {
    }
 
   return (
-    <li className="card">
+    <ul className="card">
       <div className="image">
         <img src={image} alt={author} />
       </div>
@@ -45,7 +45,7 @@ function AddFormCard({exCards, onDeleteArt, id}) {
         <strong>{author}</strong>
         <span> · {title}</span>
       </div>
-    </li>
+    </ul>
     
   )
 }

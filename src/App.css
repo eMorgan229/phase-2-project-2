@@ -13,11 +13,73 @@
   color: black;
 }
 
-.home-cards {
-  max-width: 20%;
-  height: auto;
-  float: left;
+  .home-cards {
+   text-align: center;
+    width: 600px;
+    height: 800px;
+    display: block;
+    margin:auto;
+  
+    
+    
+   /* max-width: 20%;
+   height: auto;
+   float: left;
+   padding: 10px;
+   margin-left: 200px
+   /* */
+  /* padding:10px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  */
+} 
+/* .home-dropdown {
+  border-radius: 5%;
+  font-size: 30px;
+  width: 5px;
+} */
+
+ .home-image {
+  max-width: 500px;
+ 
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.19) 
+
 }
+
+
+
+
 .home-dropdown {
-  width: 20%;
+  width: 600px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+  
+
 }
+
+/*transition between pages*/
+/* .page {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  }
+
+  .fade-appear,
+.fade-enter {
+opacity: 0;
+z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+opacity: 1;
+transition: opacity 450ms linear 250ms;
+}
+.fade-exit {
+opacity: 1;
+}
+.fade-exit.fade-exit-active {
+opacity: 0;
+transition: opacity 150ms linear;
+} */
