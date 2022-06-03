@@ -11,7 +11,7 @@ function Exhibitions() {
           .then(exCards=>setExCards(exCards))
       },[])
   return (
-    <div className="page">Exhibitions
+    <div className="page">
         <ExContainer exCards={exCards}/>
     </div>
   )
