@@ -93,14 +93,14 @@ button {
   padding: 0.5em;
   cursor: pointer;
 }
-
+/*in ex cards the whole <ul>*/
 .card {
   position: center;
-  /* padding-left: 70px; */
+  padding-left: 70px;
   display: inline-block;
-  padding-bottom: 50px;
-}
-
+  /* padding-bottom: 50px;*/
+} 
+/* excards*/
 .image {
    height: 450px;
   position: right;
@@ -112,6 +112,7 @@ button {
 .form-container {
   max-width: 60em;
   margin: left;
+
 }
 
 .form-container > div {
@@ -139,11 +140,13 @@ button {
   text-align: center;
 }
 
-.home-cards-div{
+.home-cards{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+ justify-content: center;
+ align-items: center;
+  flex-direction: row; 
 }
+
 
 
 /* call flex-direct*/
